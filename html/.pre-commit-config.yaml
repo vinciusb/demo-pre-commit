@@ -1,4 +1,4 @@
-files: clang
+files: html
 repos:
 - repo: https://github.com/Lucas-C/pre-commit-hooks-lxml
   rev: v1.1.0
