@@ -26,7 +26,9 @@ enum u_int8_t { RUNNING, RUNNABLE, WAITING, SLEEPING } THREAD_STATE;
  * @brief A struct that defines a DCC thread.
  *
  */
-struct dccthread {
+struct
+
+    dccthread {
     char t_name[DCCTHREAD_MAX_NAME_SIZE];
     enum u_int8_t state;
     ucontext_t t_context;
